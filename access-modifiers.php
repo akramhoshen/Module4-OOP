@@ -17,7 +17,7 @@ class BankAccount {
     }
 }
 
-class subAccount extends BankAccount{
+class subAccount extends BankAccount{  //only access protected and public file in child class
     public function WithDraw($amount){
         $this->balance -= $amount;
     }
